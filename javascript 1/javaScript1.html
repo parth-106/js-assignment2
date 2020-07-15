@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Document</title>
+    <!-- <script defer src="intro.js"></script> -->
+</head>
+<body>
+    <log>
+        <h2>This is simple way to Use <mark>Log Function</mark> in console path</h2>
+        <p><h3>simple way to give an output</h3></p>
+        <script>
+            console.log("Hello 'Sai Sir' and 'Prasad Sir'")
+        </script>
+    </log><br><br>
+    <count>
+        <h2>To count the <mark>loop</mark> </h2>
+
+        <p><h3>Press f12 on keybord and see the output in console pannel</h3></p>
+        <script>
+            for(i = 0; i < 5; i++)
+            {
+                console.count();
+            }
+        </script>
+    </count><br><br>
+    <error>
+        <h2>This is to show the <mark>error message</mark> in the console path</h2>
+        <p><h3>Error Meaasge in console</h3></p>
+        <script>
+            console.error("See the error message in the console")
+        </script>
+    </error><br><br>
+    <warn>
+        <h2>This is for <mark>marning message</mark></h2>
+        <p><h3>Warning message</h3></p>
+        <script>
+            console.warn("This is warrning message!!!")
+        </script>
+    </warn><br><br>
+    <group>
+        <h2><mark>Group</mark></h2>
+        <p><h3>Way to write in <mark>Parent Group </mark> or <mark>Child Group</mark></h3></p>
+        <script>
+            console.log("This is the outer level");
+            console.group();
+            console.log("Level 2");
+            console.group();
+            console.log("Level 3");
+            console.warn("More of level 3");
+            console.groupEnd();
+            console.log("Back to level 2");
+            console.groupEnd();
+            console.log("Back to the outer level");
+        </script>
+    </group><br><br>
+    
+</body>
+</html>
